@@ -1,0 +1,4 @@
+run this code in cmd but change "video1.mp4" to the file name
+
+python detect_faces_videoStream.py --video video1.mp4  --prototxt deploy.prototxt.txt \
+--model res10_300x300_ssd_iter_140000.caffemodel
